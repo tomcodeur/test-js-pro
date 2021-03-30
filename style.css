@@ -1,0 +1,85 @@
+body {
+    background-color: lightsalmon;
+    margin: 0;
+    padding: 0;
+}
+
+.titre__principal {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    margin-left: 8px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(90, 90, 90, 0.51);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(90, 90, 90, 0.51);
+    box-shadow:         2px 2px 5px 0px rgba(90, 90, 90, 0.51);
+}
+
+h1, h2, p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.198);
+    margin: 10px 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(124, 124, 124, 0.51);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(124, 124, 124, 0.51);
+    box-shadow:         2px 2px 5px 0px rgba(124, 124, 124, 0.51);
+}
+
+.label {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+svg {
+    position: fixed;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+@media screen and (max-width: 972px) {
+    #main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
